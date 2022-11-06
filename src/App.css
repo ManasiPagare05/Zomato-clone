@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img {
+  position: relative;
+  background-image: url("../public/assets/background.png");
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  color: whitesmoke;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.login,
+.account {
+  position: absolute;
   color: white;
+  padding: 10px;
+  top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.account {
+  border: 1px solid white;
+  right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+  right: 150px;
 }
+
+.circle-img {
+  font-size: 40px;
+  font-weight: bold;
+  width: 50px;
+  padding: 20px;
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 4em;
+  left: 50%
+}
+
+.heading-content {
+  position: absolute;
+  text-align: center;
+  top: 18em;
+  left: 30%;
+}
+
+#location,
+#restaurants {
+  padding: 10px;
+  margin: 5px;
+  width: 45%;
+  color: grey;
+}
+
+/*Search section  */
+.border{
+  background-color: #FBFBFB;
+  padding: 5% 10%;
+}
+
+.border h1{
+  color: #192F60;
+}
+
+.border h4{
+  color: #8C96AB;
+  font-weight: light;
+}
+
+/* card section */
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: white;
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 2%;
+  display: flex;
+}
+
+.card-info{
+  margin-left: 10px;
+}
+
+.square-img{
+  width: 40%;
+}
+
+.main-text{
+  color: #192F60;
+}
+
+.subtitle{
+  color: #8C96AB;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.cakery{
+  padding: 5% 10%;
+}
+
+.cakery img{
+  width:30%;
+  align-items: center;
+}
+
+.middle-section button{
+  margin-left:80%;
+  background-color:red;
+  color:white;
+  padding: 10px;
+}
+
